@@ -7,7 +7,7 @@ The signals file is too large. So we provide a Google drive link: https://drive.
 
 Before you use the code, please download *raw_data.npy* from the link above and put it into the *data* folder.
 
-*In this folder:
+In this folder:
   + *train.py*: Train the model and will save *best_model.pth* in *saved_model* folder. This training may take two days. We already provide the model we trained in the *saved_model* folder.
   + *create_adv_pgd.py*: Generate adversarial examples by traditional attack method PGD.
   + *create_adv_conv_train.py*: Generate adversarial examples by our smoothed attack method SAP.
